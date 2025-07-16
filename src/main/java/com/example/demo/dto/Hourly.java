@@ -14,7 +14,7 @@ public class Hourly {
     @JsonAlias("temperature_2m")
     private double[] temperatureTwoM;
     @JsonAlias("relative_humidity_2m")
-    private double[] relativeHumidityTwoM;
+    private long[] relativeHumidityTwoM;
     @JsonAlias("dew_point_2m")
     private double[] dewPointTwoM;
     @JsonAlias("apparent_temperature")
@@ -28,15 +28,15 @@ public class Hourly {
     @JsonAlias("wind_speed_80m")
     private double[] windSpeedEightyM;
     @JsonAlias("wind_direction_10m")
-    private double[] windDirectionTenM;
+    private long[] windDirectionTenM;
     @JsonAlias("wind_direction_80m")
-    private double[] windDirectionEightyM;
+    private long[] windDirectionEightyM;
     @JsonAlias("visibility")
     private double[] visibility;
     @JsonAlias("evapotranspiration")
     private double[] evapotranspiration;
     @JsonAlias("weather_code")
-    private double[] weatherCode;
+    private long[] weatherCode;
     @JsonAlias("soil_temperature_0cm")
     private double[] soilTemperatureZeroCm;
     @JsonAlias("soil_temperature_6cm")
