@@ -1,4 +1,4 @@
-package com.etl.dto;
+package com.etl.dto.api;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import lombok.*;

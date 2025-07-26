@@ -1,13 +1,13 @@
 package com.etl.factory;
 
-import com.etl.dto.GeneralWeather;
+import com.etl.dto.api.GeneralWeather;
 import org.springframework.stereotype.Component;
 
 import java.util.TimeZone;
 
 @Component
 public class GeneralWeatherFactory {
-    public GeneralWeather create(){
+    public GeneralWeather create() {
         return new GeneralWeather(
                 55,
                 83,

@@ -1,6 +1,6 @@
 package com.etl.client;
 
-import com.etl.dto.GeneralWeather;
+import com.etl.dto.api.GeneralWeather;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

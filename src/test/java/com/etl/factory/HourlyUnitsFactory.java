@@ -1,11 +1,11 @@
 package com.etl.factory;
 
-import com.etl.dto.HourlyUnits;
+import com.etl.dto.api.HourlyUnits;
 import org.springframework.stereotype.Component;
 
 @Component
 public class HourlyUnitsFactory {
-    public HourlyUnits create(){
+    public HourlyUnits create() {
         return new HourlyUnits(
                 "unixtime",
                 "°F",

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: weather-service
+
+report:
+  data-export-hours: 24
+
+
+excel:
+  path: src/main/resources/example.xlsx
+  sheet-name: weather-report

@@ -72,4 +72,22 @@ public class AvgDailyReport {
      */
     @ExcelProperty("Средняя видимость за 24 часа (в метрах)")
     private String avgVisibilityTwentyFourH;
+
+    /**
+     * Total rainfall accumulation over 24 hours in millimeters
+     */
+    @ExcelProperty("Общее количество дождя за 24 часа (в миллиметрах)")
+    private String totalRainTwentyFourH;
+
+    /**
+     * Total shower precipitation accumulation over 24 hours in millimeters
+     */
+    @ExcelProperty("Общее количество ливней за 24 часа (в миллиметрах)")
+    private String totalShowersTwentyFourH;
+
+    /**
+     * Total snowfall accumulation over 24 hours in millimeters
+     */
+    @ExcelProperty("Общее количество снегопада за 24 часа (в миллиметрах)")
+    private String totalSnowfallTwentyFourH;
 }
