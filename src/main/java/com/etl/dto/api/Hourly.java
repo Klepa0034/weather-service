@@ -1,9 +1,10 @@
-package com.etl.dto;
+package com.etl.dto.api;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import lombok.*;
 
 import java.util.List;
+
 /**
  * Represents hourly weather forecast data containing time-series measurements
  * for various atmospheric and surface parameters. All time values are in Unix timestamp format.
@@ -98,6 +99,7 @@ public class Hourly {
 
     /**
      * WMO weather code describing current conditions
+     *
      * @see <a href="https://www.nodc.noaa.gov/archive/arc0021/0002199/1.1/data/0-data/HTML/WMO-CODE/WMO4677.HTM">WMO code definitions</a>
      */
     @JsonAlias("weather_code")

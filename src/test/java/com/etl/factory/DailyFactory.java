@@ -1,6 +1,6 @@
 package com.etl.factory;
 
-import com.etl.dto.Daily;
+import com.etl.dto.api.Daily;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

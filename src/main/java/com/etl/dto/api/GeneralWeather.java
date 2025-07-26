@@ -1,4 +1,4 @@
-package com.etl.dto;
+package com.etl.dto.api;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import lombok.*;
@@ -64,6 +64,7 @@ public class GeneralWeather {
 
     /**
      * Container for daily weather forecast data
+     *
      * @see Daily
      */
     @JsonAlias("daily")
@@ -71,6 +72,7 @@ public class GeneralWeather {
 
     /**
      * Units of measurement for daily forecast data
+     *
      * @see DailyUnits
      */
     @JsonAlias("daily_units")
@@ -78,6 +80,7 @@ public class GeneralWeather {
 
     /**
      * Container for hourly weather forecast data
+     *
      * @see Hourly
      */
     @JsonAlias("hourly")
@@ -85,6 +88,7 @@ public class GeneralWeather {
 
     /**
      * Units of measurement for hourly forecast data
+     *
      * @see HourlyUnits
      */
     @JsonAlias("hourly_units")

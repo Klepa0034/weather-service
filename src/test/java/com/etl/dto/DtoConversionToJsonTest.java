@@ -1,6 +1,7 @@
 package com.etl.dto;
 
 import com.etl.constant.JsonValue;
+import com.etl.dto.api.*;
 import com.etl.factory.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
@@ -64,11 +65,9 @@ class DtoConversionToJsonTest {
             return (T) dailyUnitsFactory.create();
         } else if (entityClass == GeneralWeather.class) {
             return (T) generalWeatherFactory.create();
-        }
-        else if (entityClass == Hourly.class) {
+        } else if (entityClass == Hourly.class) {
             return (T) hourlyFactory.create();
-        }
-        else if (entityClass == HourlyUnits.class) {
+        } else if (entityClass == HourlyUnits.class) {
             return (T) hourlyUnitsFactory.create();
         }
         return null;

@@ -1,6 +1,6 @@
 package com.etl.client;
 
-import com.etl.dto.GeneralWeather;
+import com.etl.dto.api.GeneralWeather;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -31,8 +31,7 @@ public interface WeatherClient {
      * @param precipitation_unit Precipitation unit ("mm" or "inch")
      * @param startDate          Start date in YYYY-MM-DD format
      * @param endDate            End date in YYYY-MM-DD format
-     * @return                   GeneralWeather object containing forecast data
-     *
+     * @return GeneralWeather object containing forecast data
      * @see GeneralWeather
      */
     @GetMapping("/forecast")

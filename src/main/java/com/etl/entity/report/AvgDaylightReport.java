@@ -72,4 +72,21 @@ public class AvgDaylightReport {
      */
     @ExcelProperty("Средняя видимость (м)")
     private String avgVisibilityDaylight;
+    /**
+     * Total rainfall accumulation during daylight hours in millimeters (mm)
+     */
+    @ExcelProperty("Общее количество дождя (мм)")
+    private String totalRainDaylight;
+
+    /**
+     * Total shower precipitation accumulation during daylight hours in millimeters (mm)
+     */
+    @ExcelProperty("Общее количество ливней (мм)")
+    private String totalShowersDaylight;
+
+    /**
+     * Total snowfall accumulation during daylight hours in millimeters (mm)
+     */
+    @ExcelProperty("Общее количество снегопада (мм)")
+    private String totalSnowfallDaylight;
 }
